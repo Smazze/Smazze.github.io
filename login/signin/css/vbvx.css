@@ -1,0 +1,171 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+    font-size: inherit !important;
+    font-family: 'PayPal-Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;	
+}
+
+ul li
+{
+	list-style: none;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+
+.al
+{
+    width: 450px;
+    margin: 45px auto;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 15px;
+}
+
+#nn_bank
+{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-family: tahoma;
+    color: #4e4e4e;
+    font-weight: bold;
+    padding-bottom: 8px;
+    padding-top: 5px;
+}
+
+header 
+{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 15px;
+}
+
+header .logo_bank
+{
+    width: 50%;
+    overflow: hidden;
+    float: left;
+}
+
+header .logo_ssl
+{
+    width: 50%;
+    overflow: hidden;
+    float: right;
+    text-align: right;
+    padding-right: 6px;
+}
+
+.pp
+{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+#pl
+{
+	color:#7d7d7d;
+	font-size: 13px;
+}
+
+#zz
+{
+	color: #7d7d7d;
+    margin-bottom: 5px;
+    font-size: 13px;
+    line-height: 2;
+}
+
+#majd
+{
+	color: #525252;
+}
+
+
+.ma3art
+{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.ma3art .time 
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+.ma3art .time .tim
+{
+    color: #585858;
+    margin-bottom: 5px;
+    font-size: 17px;
+    line-height: 2;
+}
+
+.ma3art .time .dt
+{
+    color: #444;
+    margin-bottom: 5px;
+    line-height: 2;
+    font-weight: bold;
+    padding-right: 73px;
+}
+
+._n_ccv
+{
+    color: #444;
+    margin-bottom: 5px;
+    line-height: 2;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+._ccv .tim
+{
+    color: #585858;
+    margin-bottom: 5px;
+    font-size: 17px;
+    line-height: 2;
+}
+
+.hassan
+{
+	    margin-bottom: 8px;
+}
+
+footer
+{
+	width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 11px;
+    color: darkgrey;
+}
+
+#inco
+{
+	width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+    text-align: center;
+}

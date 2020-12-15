@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /
+Disallow: /uk/
+Disallow: /ca/
+Disallow: /us/

